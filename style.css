@@ -1,0 +1,84 @@
+body{
+	background-image: url("bg.png");
+	background-size:1122px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 65%;
+}
+div.bern{
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+}
+.icon{
+	margin-left:10px;
+	margin-right: 10px;
+	margin-bottom:0; 
+	max-width: 50px;
+	max-height: 50px;
+}
+.logo{
+	width:140.56px;
+	height: 137.2px;
+	margin-top: 10px;
+}
+h1{
+	text-align: center;
+	color: #010940;
+	font-size: 3em;
+	font-style: uppercase;
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-weight: 700;
+}
+@media (min-width: 1122px){
+	body{
+	background-size: cover;
+	}
+}
+#main {
+max-width: 960px;
+margin: auto;
+}
+ 
+ol {
+	column-count: 1;
+	font-size: 1.45rem;
+	color: #010940;
+	margin:0 20%;
+	text-align: center;
+	font-weight: 700;
+}
+
+@media (min-width: 700px){
+	.menu{
+		display: flex;
+		justify-content: flex-start;
+	}
+}
+
+@media (min-width: 830px){
+	ol {
+	column-count: 2;
+	column-gap: 4em;
+	font-size: 2rem;
+	margin: 0 100px;
+	color: #010940;
+	}
+	h1{
+	text-align: center;
+	color: #010940;
+	font-size: 6em;
+	font-style: uppercase;
+	margin-top: 0;
+	margin-bottom: 0px;
+	}
+	.logo{
+	width:225.9px;
+	height: 220.5px;
+	margin-top:-20px;
+	}
+}
